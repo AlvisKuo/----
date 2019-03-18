@@ -1,0 +1,394 @@
+
+/* <!---------------------------------------header-----------------------------------------------------------> */
+
+#wrap{
+
+  width: 100%;
+  margin: 0 auto;
+  font-family: Microsoft JhengHei;
+
+}
+
+#header{
+
+  background-color: rgb(246, 246, 246);
+  padding: 2px 0;
+
+}
+
+.box{
+
+  padding: 20px 10px;
+
+}
+
+.box li{
+
+  float: right;
+  margin-top: -10px;
+
+}
+
+
+.box a{
+
+  padding: 0 6px;
+
+}
+
+.box a:link{
+
+  text-decoration: none;
+  vertical-align: middle;
+
+}
+
+.box a:hover{
+
+  color: #FF3333;
+  text-decoration: underline;
+
+}
+
+.box img{
+
+  vertical-align: middle;
+
+}
+
+
+.Twitter img{
+
+  margin-left: 7px;
+
+}
+
+.Twitter a{
+
+  color:#00BBFF;
+
+}
+
+.FB a{
+
+  color:rgb(68, 96, 160);
+  border-right: 1px solid #DDDDDD;
+
+}
+
+/* <!---------------------------------------topmenu----------------------------------------------------------> */
+
+#topmenu{
+
+  margin: 10px 0;
+
+}
+
+.nav{
+
+  float: right;
+
+}
+
+.nav li{
+
+  float: left;
+  margin-right: 30px;
+  margin-top: 17px;
+
+}
+
+.nav a{
+
+  list-style-type: none;
+
+  font-size: 20px;
+  color: rgb(0, 204, 153);
+  text-decoration: none;
+
+}
+
+.nav a:hover{
+
+  color: #FF3333;
+  text-decoration: underline;
+
+}
+
+.active a{
+
+  border-bottom: 3px solid #00CC99;
+  padding-bottom: 19px;
+
+
+}
+
+/* <!-- ------------------------------------banner-------------------------------------------------------  --> */
+
+#banner{
+
+  height: 346px;
+  background-image: url("https://upload.cc/i1/2019/03/17/CqlzYg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+  display: flow-root;
+
+}
+
+
+.banner-word{
+
+  height: 130px;
+  margin: 80px 0;
+  padding: 25px;
+
+  font-size: 50px;
+	color: #fff;
+	background: hsla(60, 3.3%, 11.8%, 0.15) ;
+
+}
+
+.banner-word p{
+
+  margin-left: 30px;
+}
+
+/* <!-- ------------------------------------content------------------------------------------------------  --> */
+
+#content{
+
+  margin-top: 50px;
+  /* height: 947px; */
+
+}
+
+#content ol{
+
+  float:left;
+  width: 305px;
+  height: 300px;
+
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: auto 50px;
+
+  text-align: justify;
+
+  -webkit-box-shadow: 0 7px 4px -3px gray;
+
+          box-shadow: 0 7px 4px -3px gray;
+
+}
+
+#content img{
+
+  display: block;
+  margin: 0 auto;
+
+}
+
+#content h1{
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+
+#content p{
+
+  line-height: 27px;
+  font-size: 17px;
+
+}
+
+.pic{
+
+  height: 139px;
+
+}
+
+.contentList{
+
+  padding-left: 25px;
+}
+
+.contentList li{
+
+  list-style-type: disc;
+  line-height: 27px;
+}
+
+.clearfix{
+
+  clear: both;
+
+}
+
+/* <!-- ------------------------------------chart-----------------------------------------------------------> */
+#chart{
+
+  margin-top: 60px;
+
+}
+
+.chart-heading{
+
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+  margin-bottom: 35px;
+
+}
+
+.chart-style{
+
+  margin: 0 auto;
+
+}
+
+.chart-style th, td{
+
+  width: 250px;
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  padding: 8px;
+
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+}
+
+.chart-style th{
+
+  background-color: #F7F7F7;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.chart-style span{
+
+  color: #00CC99;
+}
+
+/* <!-- ------------------------------------form-----------------------------------------------------------> */
+#form{
+
+background-color:#00654C;
+background-image:-webkit-gradient(linear, left top, left bottom, from(#00654C), to(#009772));
+background-image:linear-gradient(#00654C, #009772);
+
+
+padding:50px;
+margin: 60px 40px;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+}
+
+.form-heading p{
+
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  line-height: 45px;
+
+}
+
+.form-textarea{
+
+  margin-top: 40px;
+  border-radius: 5px;
+
+}
+
+.form-data{
+
+float: right;
+
+margin-top: 20px;
+
+
+}
+
+.form-data li{
+
+  color: white;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  padding: 10px 0 20px 0;
+
+  line-height: 30px;
+
+
+}
+
+.form-data input{
+
+  width: 500px;
+  height: 40px;
+  padding: 0 0 0 10px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-family: Microsoft JhengHei;
+
+}
+
+.btn{
+
+  width: 75px;
+  height: 35px;
+
+  position: relative;
+  left:544px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #00CC99;
+  color: white;
+
+  font-family: Microsoft JhengHei;
+  font-size: 16px;
+
+}
+
+.btn:hover{
+
+  background-color: #00654C;
+  cursor: pointer;
+
+}
+
+/* <!-- ------------------------------------footer-----------------------------------------------------------> */
+#footer{
+
+margin: -30px 45px 50px 45px;
+
+}
+
+.contact{
+
+  float: right;
+
+  line-height: 25px;
+}
+
+.contact span{
+
+  color: #E12D80;
+}
